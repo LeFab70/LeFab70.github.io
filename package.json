@@ -1,0 +1,18 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "A simple quiz application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build:css": "tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.35",
+    "autoprefixer": "^10.4.17"
+  }
+} 
